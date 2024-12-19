@@ -46,7 +46,7 @@ int main(void) {
     error_rate = (double)error_count / num_trials;
     // printf("snr = %lf, sigma = %lf, error_rate = %lf\n", snr, sigma,
     //  error_rate);
-    printf("%lf, %lf\n", snr, sigma, error_rate);  // for gnuplot (.csv)
+    printf("%lf, %lf\n", snr, error_rate);  // for gnuplot (.csv)
   }
   return 0;
 }
