@@ -1,5 +1,4 @@
 /* hamming_code_simulation.c */
-/* 2221034 栗田卓 */
 #include <math.h>
 #include <stdio.h>
 
